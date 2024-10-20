@@ -1,78 +1,15 @@
-<div align='center'>
+# Installation
+> `npm install --save @types/node`
 
-# About Us
+# Summary
+This package contains type definitions for node (https://nodejs.org/).
 
-Interstellar is one of the best modern unblocked game sites. Check it out <a href="https://interstellars.games">here</a>. If this link is blocked, you can get more links in our <a href="https://dsc.gg/interstellarntwork">Discord Server!</a>
+# Details
+Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node.
 
-<a href="https://discord.gg/gointerstellar"><img height="30px" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"><img></a>
-<a href="https://github.com/interstellarnetwork"><img height="30px" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"><img></a>
-</p>  
-
-# Deploying
-Interstellar is completely open source, so you can deploy it to these services.
-
-**Note:**  All of the built-in games will **NOT** work on certain services, since these services have a size limit.
-  
-### Free Services
-
-<a target="_blank" href="https://replit.com/github/interstellarnetwork/interstellar-deployable"><img alt="Run on Replit" src="https://raw.githubusercontent.com/BinBashBanana/deploy-buttons/master/buttons/remade/replit.svg"></a>
-[![Remix on Glitch](https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/interstellarnetwork/interstellar-deployable)
-[![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/interstellarnetwork/interstellar)
-[![Deploy to Cyclic](https://binbashbanana.github.io/deploy-buttons/buttons/remade/cyclic.svg)](https://app.cyclic.sh/api/app/deploy/interstellarnetwork/interstellar)
-
-## How to deploy on Replit
-
-Step 1. Create a **NEW** Repl.
-
-Step 2. Scroll down and select **Node.js** as the template.
-
-Step 3. Name the Repl, and then click **"Create Repl"**.
-
-Step 4. On the right-hand side of the screen, you should see a panel labeled "Shell". Copy and paste the following code into the Shell:
-
-`
-git clone https://github.com/interstellarnetwork/interstellar-deployable.git
-`
-
-Once the deployment is complete, you will see a folder called **"interstellar-deployable"**. You need to move all the files that are inside the folder out of that folder.
-
-### Alternatively 
-
-You can click [here](https://replit.com/@imbubbo/interstellar-deployable?v=1) to fork the project on Replit.
-
-## Paid Services (Some are free with a credit/debit card)
-
-[![Deploy to Heroku](https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg)](https://heroku.com/deploy/?template=https://github.com/interstellarnetwork/interstellar)
-[![Deploy to Oracle Cloud](https://binbashbanana.github.io/deploy-buttons/buttons/remade/oraclecloud.svg)](https://cloud.oracle.com/resourcemanager/stacks/create?zipUrl=https://github.com/interstellarnetwork/interstellar/archive/refs/heads/main.zip)
-[![Deploy to Koyeb](https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg)](https://app.koyeb.com/apps/deploy?type=git&repository=github.com/interstellarnetwork/interstellar&branch=main&name=interstellar&run_command=npm%start)
-[![Run on Google Cloud](https://camo.githubusercontent.com/4fab2bbebcae1fe689b7d3eba3b89e309169215055849590724fd6e13333558c/68747470733a2f2f62696e6261736862616e616e612e6769746875622e696f2f6465706c6f792d627574746f6e732f627574746f6e732f72656d6164652f676f6f676c65636c6f75642e737667)](https://deploy.cloud.run/?git_repo=https://github.com/interstellarnetwork/interstellar)
-
-
-
-
-
-# Project Activity
-
-![Alt](https://repobeats.axiom.co/api/embed/cb9f30f479ea962536e2507e469a04718173bf3c.svg "Repobeats analytics image")
-
-
-
-# Contributors 
-<img src="https://contrib.rocks/image?repo=interstellarnetwork/interstellarnetwork.github.io"/>
+### Additional Details
+ * Last updated: Wed, 06 Mar 2024 17:07:21 GMT
+ * Dependencies: [undici-types](https://npmjs.com/package/undici-types)
 
 # Credits
-
-Thank you Echo (3kh0), for allowing us to use some of his games.
-
-
-
-
-
-
-
-
-
-
-
-
- 
+These definitions were written by [Microsoft TypeScript](https://github.com/Microsoft), [Alberto Schiabel](https://github.com/jkomyno), [Alvis HT Tang](https://github.com/alvis), [Andrew Makarov](https://github.com/r3nya), [Benjamin Toueg](https://github.com/btoueg), [Chigozirim C.](https://github.com/smac89), [David Junger](https://github.com/touffy), [Deividas Bakanas](https://github.com/DeividasBakanas), [Eugene Y. Q. Shen](https://github.com/eyqs), [Hannes Magnusson](https://github.com/Hannes-Magnusson-CK), [Huw](https://github.com/hoo29), [Kelvin Jin](https://github.com/kjin), [Klaus Meinhardt](https://github.com/ajafff), [Lishude](https://github.com/islishude), [Mariusz Wiktorczyk](https://github.com/mwiktorczyk), [Mohsen Azimi](https://github.com/mohsen1), [Nikita Galkin](https://github.com/galkin), [Parambir Singh](https://github.com/parambirs), [Sebastian Silbermann](https://github.com/eps1lon), [Thomas den Hollander](https://github.com/ThomasdenH), [Wilco Bakker](https://github.com/WilcoBakker), [wwwy3y3](https://github.com/wwwy3y3), [Samuel Ainsworth](https://github.com/samuela), [Kyle Uehlein](https://github.com/kuehlein), [Thanik Bhongbhibhat](https://github.com/bhongy), [Marcin Kopacz](https://github.com/chyzwar), [Trivikram Kamat](https://github.com/trivikr), [Junxiao Shi](https://github.com/yoursunny), [Ilia Baryshnikov](https://github.com/qwelias), [ExE Boss](https://github.com/ExE-Boss), [Piotr Błażejewicz](https://github.com/peterblazejewicz), [Anna Henningsen](https://github.com/addaleax), [Victor Perin](https://github.com/victorperin), [Yongsheng Zhang](https://github.com/ZYSzys), [NodeJS Contributors](https://github.com/NodeJS), [Linus Unnebäck](https://github.com/LinusU), [wafuwafu13](https://github.com/wafuwafu13), [Matteo Collina](https://github.com/mcollina), and [Dmitry Semigradsky](https://github.com/Semigradsky).
