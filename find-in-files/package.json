@@ -1,0 +1,54 @@
+{
+  "_from": "@types/find-in-files@ts4.6",
+  "_id": "@types/find-in-files@0.5.3",
+  "_inBundle": false,
+  "_integrity": "sha512-IGKtSn0Lonfx3HdK6KMcfd5GUc1xdeLtjW1n7ZSA5Tmn1n2gj878q6IC0s4MbF9KtBpXIRqjRQxBzi2kF4WvGw==",
+  "_location": "/@types/find-in-files",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@types/find-in-files@ts4.6",
+    "name": "@types/find-in-files",
+    "escapedName": "@types%2ffind-in-files",
+    "scope": "@types",
+    "rawSpec": "ts4.6",
+    "saveSpec": null,
+    "fetchSpec": "ts4.6"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/@types/find-in-files/-/find-in-files-0.5.3.tgz",
+  "_shasum": "53c0faba863ae032b2ebae3b22725b72ded69f43",
+  "_spec": "@types/find-in-files@ts4.6",
+  "_where": "/home/runner/interstellar/.cache/typescript/4.6",
+  "bugs": {
+    "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "goooseman",
+      "url": "https://github.com/goooseman"
+    }
+  ],
+  "dependencies": {},
+  "deprecated": false,
+  "description": "TypeScript definitions for find-in-files",
+  "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/find-in-files",
+  "license": "MIT",
+  "main": "",
+  "name": "@types/find-in-files",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "directory": "types/find-in-files"
+  },
+  "scripts": {},
+  "typeScriptVersion": "4.5",
+  "types": "index.d.ts",
+  "typesPublisherContentHash": "cdced9bc38e5bcf422c149e239a27c950a2a5a91108b6d02d7a620e4c2fe9c53",
+  "version": "0.5.3"
+}
