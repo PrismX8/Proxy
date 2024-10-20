@@ -1,49 +1,58 @@
 {
-  "name": "statuses",
-  "description": "HTTP status utility",
-  "version": "2.0.1",
+  "_from": "@types/statuses@ts4.6",
+  "_id": "@types/statuses@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-V4dX/J9hyQ8hq2hztP+8xB1girGot5ltjtmxaJusf6AGyxi2RvWJrpWj4/DxF0/GFNOkswUVnbkGXKaaY9juQQ==",
+  "_location": "/@types/statuses",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@types/statuses@ts4.6",
+    "name": "@types/statuses",
+    "escapedName": "@types%2fstatuses",
+    "scope": "@types",
+    "rawSpec": "ts4.6",
+    "saveSpec": null,
+    "fetchSpec": "ts4.6"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/@types/statuses/-/statuses-2.0.0.tgz",
+  "_shasum": "2ce7ad875bdbeacf973ae4bbbac58c12cb518042",
+  "_spec": "@types/statuses@ts4.6",
+  "_where": "/home/runner/interstellar/.cache/typescript/4.6",
+  "bugs": {
+    "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/issues"
+  },
+  "bundleDependencies": false,
   "contributors": [
-    "Douglas Christopher Wilson <doug@somethingdoug.com>",
-    "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)"
+    {
+      "name": "Tanguy Krotoff",
+      "url": "https://github.com/tkrotoff"
+    },
+    {
+      "name": "BendingBender",
+      "url": "https://github.com/BendingBender"
+    }
   ],
-  "repository": "jshttp/statuses",
+  "dependencies": {},
+  "deprecated": false,
+  "description": "TypeScript definitions for statuses",
+  "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped#readme",
   "license": "MIT",
-  "keywords": [
-    "http",
-    "status",
-    "code"
-  ],
-  "files": [
-    "HISTORY.md",
-    "index.js",
-    "codes.json",
-    "LICENSE"
-  ],
-  "devDependencies": {
-    "csv-parse": "4.14.2",
-    "eslint": "7.17.0",
-    "eslint-config-standard": "14.1.1",
-    "eslint-plugin-import": "2.22.1",
-    "eslint-plugin-markdown": "1.0.2",
-    "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-promise": "4.2.1",
-    "eslint-plugin-standard": "4.1.0",
-    "mocha": "8.2.1",
-    "nyc": "15.1.0",
-    "raw-body": "2.4.1",
-    "stream-to-array": "2.3.0"
+  "main": "",
+  "name": "@types/statuses",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "directory": "types/statuses"
   },
-  "engines": {
-    "node": ">= 0.8"
-  },
-  "scripts": {
-    "build": "node scripts/build.js",
-    "fetch": "node scripts/fetch-apache.js && node scripts/fetch-iana.js && node scripts/fetch-nginx.js && node scripts/fetch-node.js",
-    "lint": "eslint --plugin markdown --ext js,md .",
-    "test": "mocha --reporter spec --check-leaks --bail test/",
-    "test-ci": "nyc --reporter=lcov --reporter=text npm test",
-    "test-cov": "nyc --reporter=html --reporter=text npm test",
-    "update": "npm run fetch && npm run build",
-    "version": "node scripts/version-history.js && git add HISTORY.md"
-  }
+  "scripts": {},
+  "typeScriptVersion": "3.0",
+  "types": "index.d.ts",
+  "typesPublisherContentHash": "882d17a6aaf5eb0415fb5dc845595485c11e9f1714f54dc2a71f8482456b07d7",
+  "version": "2.0.0"
 }

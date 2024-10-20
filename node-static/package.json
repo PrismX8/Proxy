@@ -1,49 +1,57 @@
 {
-  "name": "node-static",
-  "description": "simple, compliant file streaming module for node",
-  "url": "http://github.com/cloudhead/node-static",
-  "keywords": [
-    "http",
-    "static",
-    "file",
-    "server"
+  "_from": "@types/node-static@ts4.6",
+  "_id": "@types/node-static@0.7.11",
+  "_inBundle": false,
+  "_integrity": "sha512-1LrpKh6oftSpO2T7gUtUjT/flRdJt9Dp7IZVuNiTOXtgYVQgb/UJBLMNRUQb/Z+WCRP5OotmrUT3S3PfQn0igQ==",
+  "_location": "/@types/node-static",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@types/node-static@ts4.6",
+    "name": "@types/node-static",
+    "escapedName": "@types%2fnode-static",
+    "scope": "@types",
+    "rawSpec": "ts4.6",
+    "saveSpec": null,
+    "fetchSpec": "ts4.6"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
   ],
-  "author": "Alexis Sellier <alexis@cloudhead.io>",
+  "_resolved": "https://registry.npmjs.org/@types/node-static/-/node-static-0.7.11.tgz",
+  "_shasum": "ff568d49128cca71f9125006eedd47fea88b7227",
+  "_spec": "@types/node-static@ts4.6",
+  "_where": "/home/runner/interstellar/.cache/typescript/4.6",
+  "bugs": {
+    "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/issues"
+  },
+  "bundleDependencies": false,
   "contributors": [
-    "Pablo Cantero <pablo@pablocantero.com>",
-    "Ionică Bizău <bizauionica@gmail.com>"
+    {
+      "name": "Ben Davies",
+      "url": "https://github.com/Morfent"
+    }
   ],
+  "dependencies": {
+    "@types/mime": "^1",
+    "@types/node": "*"
+  },
+  "deprecated": false,
+  "description": "TypeScript definitions for node-static",
+  "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node-static",
+  "license": "MIT",
+  "main": "",
+  "name": "@types/node-static",
   "repository": {
     "type": "git",
-    "url": "http://github.com/cloudhead/node-static"
+    "url": "git+https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "directory": "types/node-static"
   },
-  "main": "./lib/node-static",
-  "scripts": {
-    "test": "vows --spec --isolate"
-  },
-  "bin": {
-    "static": "bin/cli.js"
-  },
-  "license": "MIT",
-  "dependencies": {
-    "optimist": ">=0.3.4",
-    "colors": ">=0.6.0",
-    "mime": "^1.2.9"
-  },
-  "devDependencies": {
-    "request": "latest",
-    "vows": "latest"
-  },
-  "version": "0.7.11",
-  "engines": {
-    "node": ">= 0.4.1"
-  },
-  "bugs": {
-    "url": "https://github.com/cloudhead/node-static/issues"
-  },
-  "homepage": "https://github.com/cloudhead/node-static",
-  "directories": {
-    "example": "examples",
-    "test": "test"
-  }
+  "scripts": {},
+  "typeScriptVersion": "4.5",
+  "types": "index.d.ts",
+  "typesPublisherContentHash": "1df44559b1cc59d9f878e2683c9d7dd2374af7dcb88ee9c6a4123ada2dfb9391",
+  "version": "0.7.11"
 }
